@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif;
+  overflow-x: hidden;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root{
+  --bgcolor:#18191A;
+  --lightbg:#242526;
+  
+  
+}
+
+body{
+  /* background:var(--bgcolor); */
+ background-color: #f1f2f6;
+}
+
+section{
+  height: 100vh;
+  max-width: 100%;
+  padding: 3% 12%;
+  overflow-y: hidden;
+  
+}
+
+.project{
+  min-height: 100vh;
+  max-width: 100%;
+  padding: 3% 12%;
+  background: url('../src/images/sec.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+
+}
+
+
+
+
+@media only screen and (max-width: 700px){
+  
+    section{
+      overflow-y: scroll;
+    }
+    
+}

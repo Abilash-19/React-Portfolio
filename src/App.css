@@ -1,0 +1,58 @@
+@media only screen and (max-width: 700px) {
+  header ul {
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top:-100%;
+    left : 50%;
+    width: 100%;
+    right : 0%;
+    transform: translate(-50%, 50%);
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(16.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 2rem;
+    z-index: 999;
+    transition: all 1.3s ease;
+    
+  }
+.show {
+  top : 0%
+}
+  header ul li{
+    padding-top: 30px;
+  }
+  header ul li a{
+    padding-top: 40px;
+    text-align: center;
+    
+  }
+  .hide {
+    display: block;
+  }
+ 
+}
+
+
+.main{
+  background: url('../src/images/sec.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.center{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.txt{
+  text-align: justify;
+  text-justify: newspaper;
+  line-height: 1.5;
+  text-justify: distribute;
+
+}
